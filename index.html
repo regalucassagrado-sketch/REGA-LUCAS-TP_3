@@ -16,19 +16,20 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: rgb(154, 182, 209);
+    background: linear-gradient(to right, #728ca7, #374f6e);
     min-height: 100vh;         
     display: flex;             
     justify-content: center;   
     align-items: center;       
     padding: 60px;    
-    color: rgb(0, 0, 0);         
+    color: rgb(218, 6, 6);         
     
     
 }
 
 body > div {
-    background: #294166;                 
+    background: #ffffff;   
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);  
     border-radius: 30px;                
     padding: 50px;                     
     width: 200%;                         
@@ -38,7 +39,7 @@ body > div {
 h1 {
     font-size: 50px;       
     font-weight: 1000;     
-    color: #070707;        
+    color: #222335;        
     margin-bottom: 2rem;   
     text-align: center;    
 }
@@ -46,14 +47,14 @@ h1 {
 h1 + p {
     font-weight: 1000;  
     text-align: center;
-    color: #020202;          
+    color: #4454e2;          
     margin-bottom: 2rem;      
 }
 
 h1 + p + p {
     font-weight: 1000;  
     text-align: center;
-    color: #ff0000;          
+    color: #fd0000;          
     margin-bottom: 2rem;   
 }
 
@@ -64,19 +65,19 @@ form {
 }
 
 fieldset {
-    border:  solid #0470fd;          
+    border:  solid #9db1d6;          
     border-radius: 20px;              
     padding: 1rem;                    
 }
 
 fieldset:hover {
-    border-color: #cbcee1;   /* preguntar a mia esto */
+    border-color: #50588d;   /* preguntar a mia esto */
 }
 
 legend {
     font-weight: 1000;   
-    font-size: 15px;        
-    color: #000000;          
+    font-size: 30px;        
+    color: #2b305f;          
     padding: 1rem;       
     display: flex;
     align-items: center;                   
@@ -90,7 +91,7 @@ label {
     display: block;          
     font-weight: 1000;       
     font-size: 15px;
-    color: #000000;          /* preguntar a mia*/
+    color: #47435a;          /* preguntar a mia*/
     margin-bottom: 0.5rem;   
     cursor: pointer;         
 }
@@ -118,13 +119,13 @@ input[type="date"]:focus,
 input[type="password"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #4f46e5;                      
-    background: #ffffff;                            /* preguntar las dos cosas */
+    border-color: #665eff;                      
+    background: rgb(223, 223, 223);                            /* preguntar las dos cosas */
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: #94a3b8;      /* preguntar esto*/
+    color: #6b85aa60;      /* preguntar esto*/
     font-style: Georgia, 'Times New Roman', Times, serif;  /* preguntar esto */
 }
 
@@ -140,7 +141,7 @@ input[type="checkbox"] {
     appearance: none;              
     width: 20px;
     height: 20px;
-    border: 1px solid #cbd5e1;     /* preguntar mia */         
+    border: 1px solid #83a7ac;     /* preguntar mia */         
     vertical-align: middle;        
     cursor: pointer;               
 }
@@ -156,7 +157,7 @@ input[type="checkbox"] {
 
 
 input[type="radio"]:checked {
-    box-shadow: inset 0 0 0 4px #e40202;  /* preguntar a mia */
+    box-shadow: inset 0 0 0 4px #00ffaa;  /* preguntar a mia */
 }
 
 input[type="checkbox"]:checked {
@@ -213,7 +214,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #000000;                              /* preguntar a mia */
+    background: #ff0000;                              /* preguntar a mia */
     transform: translateY(-4px);                      
 }
 
@@ -239,7 +240,7 @@ button[type="reset"]:active {
 
 
 input:valid:not(:placeholder-shown):not([type="radio"]):not([type="checkbox"]) {
-    border-color: #00ff5e;         
+    border-color: #0077ff;         
 }
 
 
@@ -302,6 +303,9 @@ body > div {
 
 
 
+
+
+    
 
 
     </style>
